@@ -17,9 +17,9 @@ f:6887ae982af49fa1ea482920999bba5b:xf86-video-fbturbo/.signature
 f:f8ee21eaee681b41a4eb50cb5896b847:xf86-video-fbturbo/0003-backStorage-fix.patch
 f:c6bf86bda174e0d37c75294518909b76:xf86-video-fbturbo/0001-Use-own-thunk-functions-instead-of-fbdevHW-Weak.patch
 f:d6029234c5c79ff3d4323c8a50e746e6:xf86-video-fbturbo/0004-fbdev_xrand.patch
-f:f10bd2179abb7b0f48d8eb9cd3d231a2:mesa/.footprint
-f:f0fa3a17a733841212ecb92e0c97275e:mesa/Pkgfile
-f:5ca7483cfcd74856e68ab1bd91182feb:mesa/.signature
+f:9560ef7ca7641a53ccf36777b7e45eb6:mesa/.footprint
+f:05497cd7575f62456f5812ecb1de5b92:mesa/Pkgfile
+f:5daaaad6689667488ddcd72ac8c936c4:mesa/.signature
 f:ee14f7215a09f4a1f4335d8b18c1e559:xorg/.footprint
 f:7a01e23ce57f92cf88519d8b54c01853:xorg/Pkgfile
 f:843a25c71ebd043a87c2b7368801dcb7:xorg/.signature
