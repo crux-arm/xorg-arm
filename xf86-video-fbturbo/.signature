@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/xorg-arm.pub
-RWSYHFoJug2wQmELin99AC+Utpyopmz5e+8GcG/Pm4GIM2kBACU4ZzSduiVAsQCivXjdTf/tJBu3OqPqrCvQM3WjqlfHog6ObQ4=
-SHA256 (Pkgfile) = 48cce3014d25fa8016423cba1da41463db8cfe7ad0c5f4263bed1b588d323811
+RWSYHFoJug2wQoG9KTJ4y6J5+fwYk/eNC/Ll+sXl0QuoPWHvqts/NmKNqWwCK9L40YtVJ+44ib+8LBJ3XBxeoKOYdGQkYB07/g4=
+SHA256 (Pkgfile) = 805e2bfb8e56a20f37a6366bd9991cde3accc14d0c92d2b03b5a46dd1455aef9
 SHA256 (.footprint) = 2e767adb06f4ce67709264e7a2388d8cfdd01e3b4493819ad215044fa18b2fb8
 SHA256 (0001-Use-own-thunk-functions-instead-of-fbdevHW-Weak.patch) = 64e13e2beaca64feea8a1f6e052522d80964a39226db4abb4130b3adb53cac6f
 SHA256 (0002-GCC-8-fix.patch) = a88445ee108183530632818976105aa0c71b40350e004adcc4a40a0f37ae1a1e
