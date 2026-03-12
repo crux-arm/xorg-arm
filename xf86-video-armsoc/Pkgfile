@@ -10,19 +10,19 @@ release=1
 source=()
 
 build() {
-  if [ ! -d $PKGMK_SOURCE_DIR/$name ]; then
-    git clone https://github.com/mripard/$name.git $PKGMK_SOURCE_DIR/$name
-  else
-    cd $PKGMK_SOURCE_DIR/$name && git fetch
-  fi
-  cp -r $PKGMK_SOURCE_DIR/$name $SRC
+    if [ ! -d $PKGMK_SOURCE_DIR/$name ]; then
+      git clone https://github.com/mripard/$name.git $PKGMK_SOURCE_DIR/$name
+    else
+      cd $PKGMK_SOURCE_DIR/$name && git fetch
+    fi
+    cp -r $PKGMK_SOURCE_DIR/$name $SRC
 
-  cd $SRC/$name
-  autoreconf -vi
-  ./configure --prefix=/usr --mandir=/usr/man
-  make
-  make DESTDIR=$PKG install
-  mkdir -p $PKG//etc/X11/xorg.conf.d/
-  install -m0644 $SRC/$name/xorg.conf $PKG/etc/X11/xorg.conf.d/80-armsoc.conf
-  sed "s|Allwinner sun4i|ARM graphics|g" -i $PKG/etc/X11/xorg.conf.d/80-armsoc.conf
+    cd $SRC/$name
+    autoreconf -vi
+    ./configure --prefix=/usr --mandir=/usr/man
+    make
+    make DESTDIR=$PKG install
+    mkdir -p $PKG//etc/X11/xorg.conf.d/
+    install -m0644 $SRC/$name/xorg.conf $PKG/etc/X11/xorg.conf.d/80-armsoc.conf
+    sed "s|Allwinner sun4i|ARM graphics|g" -i $PKG/etc/X11/xorg.conf.d/80-armsoc.conf
 }
